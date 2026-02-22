@@ -1,0 +1,25 @@
+<svg viewBox="0 0 1200 160" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Boxes -->
+  <rect x="20" y="50" width="200" height="60" fill="#0b1220" stroke="#3b82f6" stroke-width="2"></rect>
+  <text x="120" y="85" fill="#ffffff" font-size="16" text-anchor="middle">Toolchain Pinning</text>
+
+  <rect x="260" y="50" width="200" height="60" fill="#0b1220" stroke="#3b82f6" stroke-width="2"></rect>
+  <text x="360" y="85" fill="#ffffff" font-size="16" text-anchor="middle">Version Capture</text>
+
+  <rect x="500" y="50" width="200" height="60" fill="#0b1220" stroke="#3b82f6" stroke-width="2"></rect>
+  <text x="600" y="85" fill="#ffffff" font-size="16" text-anchor="middle">Engine sha256</text>
+
+  <rect x="740" y="50" width="200" height="60" fill="#0b1220" stroke="#3b82f6" stroke-width="2"></rect>
+  <text x="840" y="85" fill="#ffffff" font-size="16" text-anchor="middle">Manifest Emission</text>
+
+  <rect x="980" y="50" width="200" height="60" fill="#0b1220" stroke="#3b82f6" stroke-width="2"></rect>
+  <text x="1080" y="85" fill="#ffffff" font-size="16" text-anchor="middle">Benchmark Dossier</text>
+
+  <!-- Arrows -->
+  <line x1="220" y1="80" x2="260" y2="80" stroke="#94a3b8" stroke-width="2"></line>
+  <line x1="460" y1="80" x2="500" y2="80" stroke="#94a3b8" stroke-width="2"></line>
+  <line x1="700" y1="80" x2="740" y2="80" stroke="#94a3b8" stroke-width="2"></line>
+  <line x1="940" y1="80" x2="980" y2="80" stroke="#94a3b8" stroke-width="2"></line>
+
+</svg>
