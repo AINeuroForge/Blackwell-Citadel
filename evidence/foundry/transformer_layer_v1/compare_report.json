@@ -1,0 +1,13 @@
+{
+  "ts_utc": "2026-02-22T02:46:20Z",
+  "shape": [
+    1,
+    8,
+    32
+  ],
+  "max_abs_diff": 0.15625,
+  "mean_abs_diff": 0.014972329139709473,
+  "p99_abs_diff": 0.0986328125,
+  "tolerance": 0.1,
+  "pass": false
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Citadel Interoperability Contract",
+  "version": "1.0",
+  "scope": "WSL2 Ubuntu 24.04 | Blackwell RTX 5090 Laptop | CUDA 13 driver stack",
+  "tensor_formats": {
+    "layout_default": "NCHW_for_images__BSC_for_sequences",
+    "sequence_layout": "B,S,H",
+    "attention_internal_layout": "B,Heads,S,HeadDim",
+    "image_layout": "N,C,H,W",
+    "contiguity": "contiguous_required",
+    "memory_order": "row_major"
+  },
+  "dtypes": {
+    "compute_default": "FP16",
+    "accumulation": "FP32_where_supported",
+    "io_default": "FP16",
+    "bf16_policy": "allowed_if_all_stacks_support_and_parity_passes",
+    "int8_policy": "disabled_in_v1"
+  },
+  "onnx": {
+    "opset": 19,
+    "ir_version": "default",
+    "export_dtype": "FP16_weights_FP16_inputs_outputs",
+    "dynamic_axes": false,
+    "naming": {
+      "input": "x",
+      "output": "y"
+    }
+  },
+  "export_policy": {
+    "source_of_truth": "trtllm_profile",
+    "export_artifacts": [
+      "engine.plan",
+      "model.onnx",
+      "weights.npz",
+      "contract.json",
+      "run_manifest.json"
+    ],
+    "hashing": "sha256_all_artifacts",
+    "path_convention": "~/citadel/foundry/artifacts/<artifact_name>/<timestamp>/"
+  },
+  "validation_policy": {
+    "rail_separation": "never_import_torch_in_trt_runtime_process",
+    "parity": {
+      "method": "two_process",
+      "metric": "max_abs_diff",
+      "tolerance_fp16": 0.1
+    },
+    "acceptance_gates": [
+      "imports_ok_all_profiles",
+      "onnx_load_ok",
+      "onnxruntime_inference_ok",
+      "tensor_shapes_match_contract",
+      "parity_within_tolerance"
+    ]
+  },
+  "memory_policy": {
+    "cuda_graphs": "phase2",
+    "workspace_prealloc": "phase2",
+    "unified_memory": "disabled",
+    "notes": "Prefer explicit buffers + fixed shapes for deterministic engines"
+  }
+}

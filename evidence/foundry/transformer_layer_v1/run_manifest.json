@@ -1,0 +1,25 @@
+{
+  "timestamp_utc": "2026-02-22T02:41:56Z",
+  "contract": "1.0",
+  "artifact_dir": "/home/bwcitadel/citadel/foundry/artifacts/minimal_attention_v1/20260222_024149",
+  "plan": {
+    "path": "/home/bwcitadel/citadel/foundry/artifacts/minimal_attention_v1/20260222_024149/engine.plan",
+    "sha256": "5af6fd769e601cd3bc37ec878970bb11f25f105e65a137ee04095338502b9789"
+  },
+  "weights": {
+    "path": "/home/bwcitadel/citadel/foundry/artifacts/minimal_attention_v1/20260222_024149/weights.npz",
+    "sha256": "a9dd3131675433dd357246076af1ca3553942c40dda87a6b22804c36a3e7cc4c"
+  },
+  "onnx": {
+    "path": "/home/bwcitadel/citadel/foundry/artifacts/minimal_attention_v1/20260222_024149/model.onnx",
+    "sha256": "43e8f05df982080b4b3815b0ad980bf5d6a031a4915cecd1b832fc78f4591170"
+  },
+  "shape": {
+    "B": 1,
+    "S": 8,
+    "H": 32,
+    "heads": 4,
+    "head_dim": 8
+  },
+  "tensorrt": "10.13.3.9.post1"
+}

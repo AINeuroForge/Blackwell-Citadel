@@ -1,0 +1,3 @@
+Torch: 2.10.0+cu128
+CUDA linked: 12.8
+Providers: ['TensorrtExecutionProvider', 'CUDAExecutionProvider', 'CPUExecutionProvider']

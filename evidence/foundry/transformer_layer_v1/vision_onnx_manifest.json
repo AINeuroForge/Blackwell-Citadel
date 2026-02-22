@@ -1,0 +1,20 @@
+{
+  "ts_utc": "2026-02-22T02:53:39Z",
+  "opset": 19,
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "onnx_path": "/home/bwcitadel/citadel/foundry/artifacts/minimal_attention_v1/20260222_024149/model.onnx",
+  "x_shape": [
+    1,
+    8,
+    32
+  ],
+  "y_shape": [
+    1,
+    8,
+    32
+  ],
+  "onnxruntime": "1.24.2"
+}

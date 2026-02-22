@@ -1,0 +1,17 @@
+{
+  "ts_utc": "2026-02-22T02:45:11Z",
+  "tensorrt": "10.13.3.9.post1",
+  "input_name": "x",
+  "output_name": "y",
+  "input_shape": [
+    1,
+    8,
+    32
+  ],
+  "output_shape": [
+    1,
+    8,
+    32
+  ],
+  "seed": 72
+}

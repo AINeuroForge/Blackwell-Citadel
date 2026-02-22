@@ -1,0 +1,193 @@
+{
+  "engine": "/home/bwcitadel/citadel/trt_bench/engines/citadel_export.plan",
+  "runs": [
+    {
+      "ts_utc": "2026-02-22T00:38:18Z",
+      "engine": "/home/bwcitadel/citadel/trt_bench/engines/citadel_export.plan",
+      "shape": [
+        512,
+        512
+      ],
+      "profile": 0,
+      "warmup": 20,
+      "iters": 100,
+      "seed": 72,
+      "tensorrt_version": "10.15.1.29",
+      "status": "OK",
+      "errors": [],
+      "io": {
+        "input": {
+          "name": "x",
+          "dtype": "DataType.HALF",
+          "shape": [
+            -1,
+            -1
+          ]
+        },
+        "output": {
+          "name": "y",
+          "dtype": "DataType.HALF",
+          "shape": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "latency_ms": {
+        "p50": 0.042527999728918076,
+        "p90": 0.049030400812625885,
+        "p99": 0.07907487839460375,
+        "mean": 0.04428448002785444,
+        "min": 0.038495998829603195,
+        "max": 0.0825280025601387
+      },
+      "output_stats": {
+        "min": 0.0,
+        "mean": 0.001953125,
+        "max": 1.0,
+        "any_nan": false
+      }
+    },
+    {
+      "ts_utc": "2026-02-22T00:38:18Z",
+      "engine": "/home/bwcitadel/citadel/trt_bench/engines/citadel_export.plan",
+      "shape": [
+        1024,
+        1024
+      ],
+      "profile": 0,
+      "warmup": 20,
+      "iters": 100,
+      "seed": 72,
+      "tensorrt_version": "10.15.1.29",
+      "status": "OK",
+      "errors": [],
+      "io": {
+        "input": {
+          "name": "x",
+          "dtype": "DataType.HALF",
+          "shape": [
+            -1,
+            -1
+          ]
+        },
+        "output": {
+          "name": "y",
+          "dtype": "DataType.HALF",
+          "shape": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "latency_ms": {
+        "p50": 0.052319999784231186,
+        "p90": 0.07053759768605244,
+        "p99": 0.20802623659372332,
+        "mean": 0.06280704002827406,
+        "min": 0.04435199871659279,
+        "max": 0.21379199624061584
+      },
+      "output_stats": {
+        "min": 0.0,
+        "mean": 0.0009765625,
+        "max": 1.0,
+        "any_nan": false
+      }
+    },
+    {
+      "ts_utc": "2026-02-22T00:38:19Z",
+      "engine": "/home/bwcitadel/citadel/trt_bench/engines/citadel_export.plan",
+      "shape": [
+        1536,
+        1536
+      ],
+      "profile": 0,
+      "warmup": 20,
+      "iters": 100,
+      "seed": 72,
+      "tensorrt_version": "10.15.1.29",
+      "status": "OK",
+      "errors": [],
+      "io": {
+        "input": {
+          "name": "x",
+          "dtype": "DataType.HALF",
+          "shape": [
+            -1,
+            -1
+          ]
+        },
+        "output": {
+          "name": "y",
+          "dtype": "DataType.HALF",
+          "shape": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "latency_ms": {
+        "p50": 0.10369599983096123,
+        "p90": 0.12480000108480457,
+        "p99": 0.378682251274586,
+        "mean": 0.11362176023423672,
+        "min": 0.07782399654388428,
+        "max": 0.4256319999694824
+      },
+      "output_stats": {
+        "min": 0.0,
+        "mean": 0.0006508827209472656,
+        "max": 1.0,
+        "any_nan": false
+      }
+    },
+    {
+      "ts_utc": "2026-02-22T00:38:19Z",
+      "engine": "/home/bwcitadel/citadel/trt_bench/engines/citadel_export.plan",
+      "shape": [
+        2048,
+        2048
+      ],
+      "profile": 0,
+      "warmup": 20,
+      "iters": 100,
+      "seed": 72,
+      "tensorrt_version": "10.15.1.29",
+      "status": "OK",
+      "errors": [],
+      "io": {
+        "input": {
+          "name": "x",
+          "dtype": "DataType.HALF",
+          "shape": [
+            -1,
+            -1
+          ]
+        },
+        "output": {
+          "name": "y",
+          "dtype": "DataType.HALF",
+          "shape": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "latency_ms": {
+        "p50": 0.19006400555372238,
+        "p90": 0.2586144059896469,
+        "p99": 0.5030889528989793,
+        "mean": 0.21139167994260788,
+        "min": 0.16889600455760956,
+        "max": 0.5174400210380554
+      },
+      "output_stats": {
+        "min": 0.0,
+        "mean": 0.00048828125,
+        "max": 1.0,
+        "any_nan": false
+      }
+    }
+  ]
+}

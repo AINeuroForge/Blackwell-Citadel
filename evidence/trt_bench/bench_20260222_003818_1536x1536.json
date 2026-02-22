@@ -1,0 +1,47 @@
+{
+  "ts_utc": "2026-02-22T00:38:19Z",
+  "engine": "/home/bwcitadel/citadel/trt_bench/engines/citadel_export.plan",
+  "shape": [
+    1536,
+    1536
+  ],
+  "profile": 0,
+  "warmup": 20,
+  "iters": 100,
+  "seed": 72,
+  "tensorrt_version": "10.15.1.29",
+  "status": "OK",
+  "errors": [],
+  "io": {
+    "input": {
+      "name": "x",
+      "dtype": "DataType.HALF",
+      "shape": [
+        -1,
+        -1
+      ]
+    },
+    "output": {
+      "name": "y",
+      "dtype": "DataType.HALF",
+      "shape": [
+        -1,
+        -1
+      ]
+    }
+  },
+  "latency_ms": {
+    "p50": 0.10369599983096123,
+    "p90": 0.12480000108480457,
+    "p99": 0.378682251274586,
+    "mean": 0.11362176023423672,
+    "min": 0.07782399654388428,
+    "max": 0.4256319999694824
+  },
+  "output_stats": {
+    "min": 0.0,
+    "mean": 0.0006508827209472656,
+    "max": 1.0,
+    "any_nan": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ts_utc": "2026-02-22T00:28:07Z",
+  "engine": "/home/bwcitadel/citadel/trt_bench/engines/citadel_export.plan",
+  "shape": [
+    1024,
+    1024
+  ],
+  "profile": 0,
+  "warmup": 20,
+  "iters": 100,
+  "seed": 72,
+  "tensorrt_version": "10.15.1.29",
+  "status": "OK",
+  "errors": [],
+  "io": {
+    "input": {
+      "name": "x",
+      "dtype": "DataType.HALF",
+      "shape": 

@@ -1,0 +1,265 @@
+{
+  "ts_utc": "2026-02-22T05:01:46Z",
+  "artifact_dir": "/home/bwcitadel/citadel/foundry/artifacts/transformer_layer_v1/20260222_050125",
+  "plan": "/home/bwcitadel/citadel/foundry/artifacts/transformer_layer_v1/20260222_050125/transformer_layer_v1.plan",
+  "onnx": "/home/bwcitadel/citadel/foundry/artifacts/transformer_layer_v1/20260222_050125/transformer_layer_v1.onnx",
+  "trt_version": "10.13.3.9.post1",
+  "ort_available_providers": [
+    "TensorrtExecutionProvider",
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "gpu_snapshot": "NVIDIA GeForce RTX 5090 Laptop GPU, 591.74, 41, 32.49, 3, 1, 2263, 24463",
+  "runs": [
+    {
+      "shape": [
+        1,
+        8,
+        32
+      ],
+      "ops_estimate": 204800.0,
+      "compatibility": {
+        "trt_expected": [
+          1,
+          8,
+          32
+        ],
+        "ort_expected": [
+          1,
+          8,
+          32
+        ],
+        "trt_compatible": true,
+        "ort_compatible": true
+      },
+      "results": {
+        "TensorRT": {
+          "mean_ms": 0.12648668401379837,
+          "p50_ms": 0.11133899897686206,
+          "p90_ms": 0.17624299980525393,
+          "p99_ms": 0.5054229390225365,
+          "min_ms": 0.05491699994308874,
+          "max_ms": 0.7884260012360755,
+          "iters": 500,
+          "effective_GFLOPs": 1.6191427706149566,
+          "elements_per_s": 2023928.4632686956,
+          "status": "OK"
+        },
+        "ORT_CUDA": {
+          "mean_ms": 0.6312885799707146,
+          "p50_ms": 0.6538650013681035,
+          "p90_ms": 0.8998681998491522,
+          "p99_ms": 1.2099524994482636,
+          "min_ms": 0.25335999816888943,
+          "max_ms": 1.5126349971978925,
+          "iters": 300,
+          "effective_GFLOPs": 0.32441581631256605,
+          "elements_per_s": 405519.77039070753,
+          "status": "OK"
+        },
+        "ORT_TRT_EP": {
+          "mean_ms": 0.22236227015431118,
+          "p50_ms": 0.1805200008675456,
+          "p90_ms": 0.325021499520517,
+          "p99_ms": 0.6030926700623231,
+          "min_ms": 0.10600400128168985,
+          "max_ms": 0.8009350021893624,
+          "iters": 300,
+          "effective_GFLOPs": 0.9210195590190565,
+          "elements_per_s": 1151274.4487738207,
+          "status": "OK"
+        }
+      }
+    },
+    {
+      "shape": [
+        1,
+        64,
+        32
+      ],
+      "ops_estimate": 2097152.0,
+      "compatibility": {
+        "trt_expected": [
+          1,
+          8,
+          32
+        ],
+        "ort_expected": [
+          1,
+          8,
+          32
+        ],
+        "trt_compatible": false,
+        "ort_compatible": false
+      },
+      "results": {
+        "TensorRT": {
+          "status": "SKIPPED",
+          "reason": "SKIPPED: TensorRT engine has static shape incompatible with requested shape"
+        },
+        "ORT_CUDA": {
+          "status": "SKIPPED",
+          "reason": "SKIPPED: ONNX model has static shape incompatible with requested shape"
+        },
+        "ORT_TRT_EP": {
+          "status": "SKIPPED",
+          "reason": "SKIPPED: ONNX model has static shape incompatible with requested shape"
+        }
+      }
+    },
+    {
+      "shape": [
+        1,
+        256,
+        32
+      ],
+      "ops_estimate": 14680064.0,
+      "compatibility": {
+        "trt_expected": [
+          1,
+          8,
+          32
+        ],
+        "ort_expected": [
+          1,
+          8,
+          32
+        ],
+        "trt_compatible": false,
+        "ort_compatible": false
+      },
+      "results": {
+        "TensorRT": {
+          "status": "SKIPPED",
+          "reason": "SKIPPED: TensorRT engine has static shape incompatible with requested shape"
+        },
+        "ORT_CUDA": {
+          "status": "SKIPPED",
+          "reason": "SKIPPED: ONNX model has static shape incompatible with requested shape"
+        },
+        "ORT_TRT_EP": {
+          "status": "SKIPPED",
+          "reason": "SKIPPED: ONNX model has static shape incompatible with requested shape"
+        }
+      }
+    },
+    {
+      "shape": [
+        4,
+        256,
+        32
+      ],
+      "ops_estimate": 58720256.0,
+      "compatibility": {
+        "trt_expected": [
+          1,
+          8,
+          32
+        ],
+        "ort_expected": [
+          1,
+          8,
+          32
+        ],
+        "trt_compatible": false,
+        "ort_compatible": false
+      },
+      "results": {
+        "TensorRT": {
+          "status": "SKIPPED",
+          "reason": "SKIPPED: TensorRT engine has static shape incompatible with requested shape"
+        },
+        "ORT_CUDA": {
+          "status": "SKIPPED",
+          "reason": "SKIPPED: ONNX model has static shape incompatible with requested shape"
+        },
+        "ORT_TRT_EP": {
+          "status": "SKIPPED",
+          "reason": "SKIPPED: ONNX model has static shape incompatible with requested shape"
+        }
+      }
+    },
+    {
+      "shape": [
+        8,
+        256,
+        32
+      ],
+      "ops_estimate": 117440512.0,
+      "compatibility": {
+        "trt_expected": [
+          1,
+          8,
+          32
+        ],
+        "ort_expected": [
+          1,
+          8,
+          32
+        ],
+        "trt_compatible": false,
+        "ort_compatible": false
+      },
+      "results": {
+        "TensorRT": {
+          "status": "SKIPPED",
+          "reason": "SKIPPED: TensorRT engine has static shape incompatible with requested shape"
+        },
+        "ORT_CUDA": {
+          "status": "SKIPPED",
+          "reason": "SKIPPED: ONNX model has static shape incompatible with requested shape"
+        },
+        "ORT_TRT_EP": {
+          "status": "SKIPPED",
+          "reason": "SKIPPED: ONNX model has static shape incompatible with requested shape"
+        }
+      }
+    },
+    {
+      "shape": [
+        1,
+        512,
+        32
+      ],
+      "ops_estimate": 46137344.0,
+      "compatibility": {
+        "trt_expected": [
+          1,
+          8,
+          32
+        ],
+        "ort_expected": [
+          1,
+          8,
+          32
+        ],
+        "trt_compatible": false,
+        "ort_compatible": false
+      },
+      "results": {
+        "TensorRT": {
+          "status": "SKIPPED",
+          "reason": "SKIPPED: TensorRT engine has static shape incompatible with requested shape"
+        },
+        "ORT_CUDA": {
+          "status": "SKIPPED",
+          "reason": "SKIPPED: ONNX model has static shape incompatible with requested shape"
+        },
+        "ORT_TRT_EP": {
+          "status": "SKIPPED",
+          "reason": "SKIPPED: ONNX model has static shape incompatible with requested shape"
+        }
+      }
+    }
+  ],
+  "trt_expected_input_shape": [
+    1,
+    8,
+    32
+  ],
+  "ort_expected_input_shape": [
+    1,
+    8,
+    32
+  ]
+}

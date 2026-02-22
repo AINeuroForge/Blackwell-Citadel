@@ -1,0 +1,15 @@
+{
+  "ts_utc": "2026-02-22T00:39:15Z",
+  "baseline_name": "TensorRT_10.15_Blackwell_WSL2_StableBenchmark_v1",
+  "engine_path": "/home/bwcitadel/citadel/trt_bench/engines/citadel_export.plan",
+  "engine_sha256": "3004fd622bb6dc9ce447894966096eb65ead38fa43db1061d3ce591af6bb5023",
+  "summary_path": "/home/bwcitadel/citadel/trt_bench/results/summary_20260222_003819.json",
+  "python": "Python 3.12.3",
+  "tensorrt": "10.15.1.29",
+  "numpy": "2.4.2",
+  "pycuda": "2026.1",
+  "nvidia_smi": "GPU 0: NVIDIA GeForce RTX 5090 Laptop GPU (UUID: GPU-b31918f5-6b8a-b761-c879-bc9af4b50570)",
+  "driver": "591.74",
+  "wsl_kernel": "6.6.87.2-microsoft-standard-WSL2",
+  "os_release": "PRETTY_NAME=\"Ubuntu 24.04.4 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.4 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu"
+}

@@ -1,0 +1,53 @@
+{
+  "artifact": "transformer_layer_v1",
+  "files": {
+    "meta.json": {
+      "bytes": 1044,
+      "sha256": "9712f0100a3bf500cf6e54e9a44a7e46ee5159cdd3e2e794cc4af9891632236a"
+    },
+    "transformer_layer_v1.plan": {
+      "bytes": 721300,
+      "sha256": "a60eee710c3eed9cd8895cc9ce84f5385d6466b952fee0cbebcc8949cb8a424a"
+    },
+    "weights.npz": {
+      "bytes": 29230,
+      "sha256": "0b1e41949519142aa7c100e9bd0b69fe1c0e4418dd93c5d94aa4c5e4395e63a1"
+    },
+    "x.npy": {
+      "bytes": 640,
+      "sha256": "5d65f2a23f9f1adff87b3b5255f2ede48b0299f14b06a8132cf703bf743badee"
+    }
+  },
+  "io": {
+    "input_dtype": "fp16",
+    "input_name": "x",
+    "input_shape": [
+      1,
+      8,
+      32
+    ],
+    "output_dtype": "fp16",
+    "output_name": "y",
+    "output_shape": [
+      1,
+      8,
+      32
+    ]
+  },
+  "params": {
+    "B": 1,
+    "H": 32,
+    "Hff": 128,
+    "S": 8,
+    "eps": 1e-05,
+    "head_dim": 8,
+    "heads": 4,
+    "mlp_mult": 4,
+    "seed": 72
+  },
+  "timestamp_utc": "2026-02-22T04:40:50Z",
+  "versions": {
+    "tensorrt": "10.13.3.9.post1",
+    "tensorrt_llm": "1.1.0"
+  }
+}
