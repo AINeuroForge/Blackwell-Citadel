@@ -1,0 +1,8 @@
+torch: 2.12.0a0+git69e4315
+python: 3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]
+platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+torch.version.cuda: 13.1
+cuda available: True
+device: NVIDIA GeForce RTX 5090 Laptop GPU
+capability: (12, 0)
+arch list: ['sm_120']

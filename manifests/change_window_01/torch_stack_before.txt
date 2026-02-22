@@ -1,0 +1,7 @@
+torch: 2.12.0a0+git69e4315
+torchvision: 0.26.0a0+d63f7ed
+cuda: 13.1
+arch_list: ['sm_120']
+gpu: NVIDIA GeForce RTX 5090 Laptop GPU
+python: 3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]
+platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39

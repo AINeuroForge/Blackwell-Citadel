@@ -1,0 +1,37 @@
+certifi==2026.1.4
+charset-normalizer==3.4.4
+cmake==4.2.1
+dataclasses==0.6
+filelock==3.24.3
+fsspec==2026.2.0
+idna==3.11
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+ml_dtypes==0.5.4
+mpmath==1.3.0
+networkx==3.6.1
+ninja==1.13.0
+numpy==2.4.2
+nvidia-tensorrt==99.0.0
+onnx==1.20.1
+onnx-ir==0.1.16
+onnxscript==0.6.2
+packaging==26.0
+pillow==12.1.1
+protobuf==6.33.5
+PyYAML==6.0.3
+requests==2.32.5
+setuptools==81.0.0
+six==1.17.0
+sympy==1.14.0
+tensorrt==10.15.1.29
+tensorrt_cu13==10.15.1.29
+tensorrt_cu13_bindings==10.15.1.29
+tensorrt_cu13_libs==10.15.1.29
+torch @ file:///home/bwcitadel/citadel/src/pytorch
+torchvision==0.26.0a0+d63f7ed
+triton==3.6.0
+typing_extensions==4.15.0
+urllib3==2.6.3
+wheel==0.46.3
+xformers @ file:///home/bwcitadel/citadel/wheels/xformers-0.0.35%2B03b91d7.d20260221-py39-none-linux_x86_64.whl#sha256=629ee398f69f12a310228a19a2ac3eb591df0c8332a951366eec7a759cc4ef57
